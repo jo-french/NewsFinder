@@ -3,7 +3,7 @@ Tool to scrape the news.
 
 ## Aim
 
-NewsFinder is a tool that scrapes the latest political articles in the Guardian* and provides easily accessed headlines, URLs, and short summaries of the articles. The idea originated with the recent surge in political news around Brexit with the aim to make it easier and more efficient to check for political updates (in terms of headlines and article summaries).
+NewsFinder is a tool that scrapes the latest political articles in The Guardian* and provides easily accessed headlines, URLs, and short summaries of the articles. The idea originated with the recent surge in political news around Brexit with the aim to make it easier and more efficient to check for political updates (in terms of headlines and article summaries).
 
 ## Using the Tool
 
