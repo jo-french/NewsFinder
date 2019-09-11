@@ -7,7 +7,7 @@ NewsFinder is a tool that scrapes the latest political articles in The Guardian*
 
 ## Summarise News Articles
 
-Run the code SummariseDocs.py to generate summaries of the latest political news in the same order as the articles are listed in the NewsFinder object. This uses the TextRank algorithm (using nltk and networkx) individually on each article and produces 5 sentence summaries. At the time of writing, the mean article length was 20.14 sentences (to be very precise!) so this should reduce the time required to read the articles, or any selected article from the headlines list, to a quarter of the original time (should this be your aim).
+Run the code SummariseDocs.py to generate summaries of the latest political news in the same order as the articles are listed in the NewsFinder object. This uses the TextRank algorithm (using nltk and networkx) individually on each article and produces 5 sentence summaries. At the time of writing, the mean article length was 29.29 sentences (to be very precise!) so this should reduce the time required to read the articles, or any selected article from the headlines list, to a sixth of the original time (should this be your aim).
 
 ## Using the Tool
 
