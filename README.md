@@ -43,7 +43,7 @@ summarises the information stored about the articles.
 
 All but the article summaries are enumerated. Thus, for example, one can use `NewsFinder.headlines` to see the headlines of the latest articles, see that article 0 is interesting, and retrieve the information on article 0 using `NewsFinder.articlesummaries[0]`.
 
-##SummariseDocs.py
+## SummariseDocs.py
 
 The list of summaries is `Summaries`. It may be useful to print them all following the corresponding headlines or to print one using
 ```python
