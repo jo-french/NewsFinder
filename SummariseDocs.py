@@ -54,9 +54,10 @@ for i in range(len(articleTextList)):
 
 sentencesList = []
 for article in articleTextList:
-    ##We don't use "sent_tokenize" here because it misses some "\n"s. string.split works fine.
-    sentences = article.split("\n")
+    paragraphs = article.split("\n")
+    sentences = [sen for paragraph in paragraphs for sen in sent_tokenize(paragraph)]
     sentencesList.append(sentences)
+    
 
 #Print small words that don't form part of the article, e.g. 'Facebook'. This is to understand
 #any problems relating to them.
