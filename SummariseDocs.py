@@ -4,6 +4,9 @@
 @author: Jo
 """
 
+##The TextRank method used here was adapted from:
+#https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/
+
 import pandas as pd
 import numpy as np
 
